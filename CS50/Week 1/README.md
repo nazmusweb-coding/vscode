@@ -51,6 +51,7 @@
         <li>Type casting (4:27:40) <!-- Explicitly convert one type to another --></li>
         <li>Floating-point imprecision (4:29:00) <!-- decimal values in float are not most accurate, solution is double more accurate then float --></li>
     </ul>
+    
 </section>
 
 <section>

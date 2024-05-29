@@ -16,6 +16,15 @@
 </section>
 
 <section>
+    <h2>Commands that I used to compile code for this week:</h2>
+    <ul>
+        <li><code>g++ -c implementation_file.cpp -o implementation_file.o</code> <!-- opens file --></li>
+        <li><code>g++ -std=c++17 driver_file.cpp implementation_file.o -o driver_file.exe</code> <!-- compiles source code --></li>
+        <li><code>./driver</code> <!-- runs executable file --></li>
+    </ul>
+</section>
+
+<section>
     <h2>Linux commands:</h2>
     <ul>
         <li><code>cd</code> <!-- (change directory) --></li>

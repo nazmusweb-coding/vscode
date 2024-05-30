@@ -72,35 +72,34 @@ int main(void)
     cout << str4 << endl;
 
     // Erase characters from string 
-    string str ("This is an example sentence.");
-    cout << str << '\n';
+    string str10 ("This is an example sentence.");
+    cout << str10 << '\n';
                                             // "This is an example sentence."
-    str.erase (10,8);                       //            ^^^^^^^^
-    cout << str << '\n';
+    str10.erase (10,8);                       //            ^^^^^^^^
+    cout << str10 << '\n';
                                             // "This is an sentence."
-    str.erase (str.begin()+9);              //           ^           just erased 1 character n.
-    cout << str << '\n';
+    str10.erase (str10.begin()+9);              //           ^           just erased 1 character n.
+    cout << str10 << '\n';
                                             // "This is a sentence."
-    str.erase (str.begin()+5, str.end()-9); //       ^^^^^
-    cout << str << '\n';
+    str10.erase (str10.begin()+5, str10.end()-9); //       ^^^^^
+    cout << str10 << '\n';
                                             // "This sentence."
 
     // Replace portion of string
-    string base1="this is a test string.";
-    string str7="n example";
-    string str8="sample phrase";
-    string str4="useful.";
+    string base_1="this is a test string.";
+    string str_7="n example";
+    string str_8="sample phrase";
 
-    string str=base1;               // "this is a test string."
-    str.replace(9,5,str7);          // "this is an example string." (1)
-    str.replace(19,6,str8,7,6);     // "this is an example phrase." (2)
-    str.replace(8,10,"just a");     // "this is just a phrase."     (3)
-    str.replace(8,6,"a shorty",7);  // "this is a short phrase."    (4)
-    str.replace(22,1,3,'!');        // "this is a short phrase!!!"  (5)
+    string str_9=base_1;               // "this is a test string."
+    str_9.replace(9,5,str_7);          // "this is an example string." (1)
+    str_9.replace(19,6,str_8,7,6);     // "this is an example phrase." (2)
+    str_9.replace(8,10,"just a");     // "this is just a phrase."     (3)
+    str_9.replace(8,6,"a shorty",7);  // "this is a short phrase."    (4)
+    str_9.replace(22,1,3,'!');        // "this is a short phrase!!!"  (5)
 
     // Swap string values
-    string buyer ("money");
-    string seller ("goods");
+    string buyer("money");
+    string seller("goods");
 
     cout << "Before the swap, buyer has " << buyer;
     cout << " and seller has " << seller << '\n';
@@ -111,7 +110,9 @@ int main(void)
     cout << " and seller has " << seller << '\n';
 
     // Delete last character
-    
+    cout << "Before poping back: " << person << endl;
+    person.pop_back();
+    cout << "After poping back : " << person << endl;
 
 }
 

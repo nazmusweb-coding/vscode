@@ -28,5 +28,10 @@ int main(void)
 
 float average(int *array)
 {
-    return (array[0] + array[1] + array[2]) / 3.0;
+    int sum = 0;
+    for (int i = 0; i < N; i++)
+    {
+        sum += array[i];
+    }
+    return sum / (float) N;
 }

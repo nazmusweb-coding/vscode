@@ -16,13 +16,13 @@ int main(void)
 
     // We can store these scores in a array
     int scores[N];
+    
     for (int i = 0; i < 3; i++)
     {
         scores[i] = get_int("Score: ");
     }
 
     printf("Average : %f\n", average(scores));
-
 
 }
 

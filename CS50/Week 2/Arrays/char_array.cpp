@@ -10,9 +10,8 @@ int main(void)
 
     // an extra byte is used to track the end of the string
     // which is NUL('\0')
-    // it is same for every type of arrays
-    // example: integer array - s[0]:73, s[1]:72, s[2]:33, s[3]:0
-    // s[3] indicates NUL in the integer array
+    // it is same for every type of arrays, last index is to
+    // track end of the array.
 
     // Practical example:
     char c1 = 'H';

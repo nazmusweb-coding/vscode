@@ -9,14 +9,7 @@ int main()
 
     for (int i = 0; i < strlen(name.c_str()); i++)
     {
-        if (islower(name[i]))
-        {
             printf("%c", toupper(name[i]));
-        }
-        else
-        {
-            printf("%c", name[i]);
-        }
     }
     printf("\n");
 }

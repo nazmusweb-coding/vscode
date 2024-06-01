@@ -7,7 +7,8 @@ int main()
 {
     string name = get_string("What is your name: ");
 
-    for (int i = 0; i < strlen(name.c_str()); i++)
+    // Here the noticable thing is that n is in initialization block which is a great idea to make the code more efficient considering the life time and scope.
+    for (int i = 0, n = strlen(name.c_str()); i < n; i++)
     {
             printf("%c", toupper(name[i]));
     }

@@ -6,6 +6,16 @@
 // argc = argument count, it tracks the length of array of strings that human typed on the prompt
 int main(int argc, char* argv[])
 {
-    printf("Hello, %s\n", argv[1]);
-    printf("This is how program was compiled : %s\n", argv[0]);
+    if (argc == 2)
+    {
+        printf("Hello, %s\n", argv[1]);
+    }
+    else if (argc == 3)
+    {
+        printf("Hello, %s %s\n", argv[1], argv[2]);
+    }
+    else
+    {
+        printf("Hello World!\n");
+    }
 }

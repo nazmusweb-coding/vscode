@@ -1,8 +1,10 @@
 #include "/workspaces/vscode/CS50/Week 1/mycs50.h"
 #include <stdio.h>
 
-int main(void)  // This void means this program takes no command line arguments 
+// now main will take command line arguments
+// argv = array of string it will contain all of the characters or words that you type at the prompt.
+// argc = argument count, it tracks the length of array of strings that human typed on the prompt
+int main(int argc, char* argv[])
 {
-    string name = get_string("What is your name? ");
-    printf("Hello, %s\n", name.c_str());
+    printf("Hello, %s\n", argv[1]);
 }

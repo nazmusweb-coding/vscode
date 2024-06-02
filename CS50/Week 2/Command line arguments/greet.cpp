@@ -7,4 +7,5 @@
 int main(int argc, char* argv[])
 {
     printf("Hello, %s\n", argv[1]);
+    printf("This is how program was compiled : %s\n", argv[0]);
 }

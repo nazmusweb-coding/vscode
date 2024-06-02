@@ -96,6 +96,7 @@
 <section>
     <h2>Exit Status:</h2>
     <p><code>echo $?</code> - this command shows what the main function returns actually.</p>
+    <p><a href="https://github.com/nazmusweb-coding/vscode/blob/main/CS50/Week%202/Command%20line%20arguments/status.cpp" target="_blank">Here is the code snippet</a>, where command line arguments were used to custom the exit status of the main function.</p>
 </section>
 
 </body>

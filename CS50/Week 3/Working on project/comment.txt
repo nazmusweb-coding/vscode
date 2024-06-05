@@ -1,1 +1,2 @@
 Working on a project. Related to Software Development-I(C Programming) course in my university.
+Day 1 gone

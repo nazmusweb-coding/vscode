@@ -6,3 +6,5 @@ Day 4 gone and project changed :) all hardwork of 4 days is wasted.
 Day 5 gone
 Day 6 gone Eid vacations starts now
 Day 7 finalized the project, its will be a cost calculating software related to nub admission
+Day 8 Learning gui GTK+ GTK widget, GTK Container etc
+

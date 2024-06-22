@@ -9,3 +9,6 @@ Day 7 finalized the project, its will be a cost calculating software related to 
 Day 8 Learning gui GTK+ GTK widget, GTK Container etc
 Day 9 Project finished successfully, Just having problem to run it on windows, because gtk is not found.
 Day 10 gsvbuild didnt work, msys didnt work, now going for virtual box, Eid Mubarak
+Day 11 gtk cant be built statically
+Day 12 we will go will dymamic binding
+Day 13 thinking of using sqlite3

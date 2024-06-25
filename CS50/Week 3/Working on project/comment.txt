@@ -12,3 +12,7 @@ Day 10 gsvbuild didnt work, msys didnt work, now going for virtual box, Eid Muba
 Day 11 gtk cant be built statically
 Day 12 we will go will dymamic binding
 Day 13 thinking of using sqlite3
+Day 14 actually implemented sqlite3 in project withing 10hrs(learned it and implemented it)
+Day 15 so sleepy and sleeped all day
+Day 16 Mids are coming on 6 July. so there is not enough time, i have to prepare from now on.
+Day 17 Started giving time in phitron, and study.

@@ -22,3 +22,5 @@ Day 20 ...
 Day 21 Sleeping early tonight!!
 Day 22 My app dynamically runned in windows
 Day 23 Standalone or installer made for windows
+Day 24 Button issue solved
+

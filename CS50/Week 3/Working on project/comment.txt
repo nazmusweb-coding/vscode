@@ -24,5 +24,6 @@ Day 22 My app dynamically runned in windows
 Day 23 Standalone or installer made for windows
 Day 24 Button issue solved
 Day 25 Scheduler idea generate and design create
+Day 26 Mid term phitron
 
 

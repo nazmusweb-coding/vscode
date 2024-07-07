@@ -25,5 +25,8 @@ Day 23 Standalone or installer made for windows
 Day 24 Button issue solved
 Day 25 Scheduler idea generate and design create
 Day 26 Mid term phitron
+Day 27 Schedule database ready
+Day 28 Schedule generator 2nd last step.
+Day 29 will start taking exam preparation of versity
 
 
